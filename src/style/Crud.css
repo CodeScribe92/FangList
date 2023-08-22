@@ -1,0 +1,14 @@
+.crud-container {
+    display: flex;
+    justify-content: center;
+}
+
+
+.crud-container > .crud-stuff {
+    color: blue;
+}
+
+.crud-container > .crud-stuff > h4 {
+    font-size: 20px;
+    color: darkblue;
+}

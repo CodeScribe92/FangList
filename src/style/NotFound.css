@@ -1,0 +1,11 @@
+.error-redirect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.error-redirect h1 {
+    color: blue;
+    border: outset orange;
+}

@@ -1,0 +1,10 @@
+.content-page-wrapper > .right-side > .about-text h1 {
+    width: 200px;
+    height: 100px;
+    padding-left: 500px;
+}
+
+.content-page-wrapper > .right-side > .about-text h2 {
+    color: lightblue;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
