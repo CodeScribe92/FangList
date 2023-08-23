@@ -24,7 +24,7 @@ const CRUD = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
         if (id && title && content) {
-            axios.post('http://localhost:5000/note', formData)
+            axios.post('https://fang-list-backend-e3e57c8589d1.herokuapp.com/note', formData)
                 .then(res => {
                     setData([...data, res.data]);
                     setFormData({ id: "", title: "", content: "" });
@@ -38,7 +38,7 @@ const CRUD = () => {
     const handleUpdate = (e) => {
         e.preventDefault();
         if (id && title && content) {
-            axios.put(`http://localhost:5000/note/${editID}`, formData)
+            axios.put(`https://fang-list-backend-e3e57c8589d1.herokuapp.com/note/${editID}`, formData)
                 .then(res => {
                     setFormData({ id: "", title: "", content: "" });
                     setRefresh(refresh + 1)
@@ -48,7 +48,7 @@ const CRUD = () => {
     };
 
     const handleDelete = (deleteID) => {
-        axios.delete(`http://localhost:5000/note/${deleteID}`)
+        axios.delete(`https://fang-list-backend-e3e57c8589d1.herokuapp.com/note/${deleteID}`)
         .then(res => {
             console.log('Record Gone!', res)
 
@@ -57,7 +57,7 @@ const CRUD = () => {
     };
 
     const handleEdit = (editIDNotState) => {
-        axios.get(`http://localhost:5000/note/${editIDNotState}`)
+        axios.get(`https://fang-list-backend-e3e57c8589d1.herokuapp.com/note/${editIDNotState}`)
             .then(res => {
                 setFormData(res.data)
 
@@ -66,7 +66,7 @@ const CRUD = () => {
     };
 
     useEffect(() => {
-        axios.get('http://localhost:5000/note')
+        axios.get('https://fang-list-backend-e3e57c8589d1.herokuapp.com/note')
             .then(res => {
                 setData(res.data)
             })
