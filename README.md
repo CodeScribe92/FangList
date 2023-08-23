@@ -79,4 +79,4 @@ FangList also has an About Me page, where I explain a little bit about myself an
 
 There's also a Contact Me page, where you can call me or email me at any time to learn more.
 
-The Home page has my socials just in case I cant be reached at my phone number or email address. The links consist of my LinkedIn, GitHub, Youtube channel, and my Twitch channel whenever I do decide to stream live.""# FangList" 
+The Home page has my socials just in case I cant be reached at my phone number or email address. The links consist of my LinkedIn, GitHub, Youtube channel, and my Twitch channel whenever I do decide to stream live.
